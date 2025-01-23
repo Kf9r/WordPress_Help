@@ -1,7 +1,4 @@
 
-Good luck!
-"# WordPress_Help"  
-
 # Изменения в HELP
 
 ## Коммит c9e1a4b76506b5d5ac587d7402e0b210f04c3d29
@@ -17,10 +14,10 @@ Good luck!
    - Также добавьте следующие строки в файл `.htaccess`:  
      ```apache
      <IfModule mod_rewrite.c>
-     # Между
-     RewriteEngine on
-     RewriteCond %{HTTP:Authorization} ^(.*)
-     RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
+        # Между
+        RewriteEngine on
+        RewriteCond %{HTTP:Authorization} ^(.*)
+        RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
      </IfModule>
      ```
 
@@ -31,11 +28,9 @@ Good luck!
 
 4. **Создание метода**  
    - Создан метод в файле `wp-content/themes/help/inc/api/get_current_user_info.php`  
-   - Проверьте его в PostMan по ссылке:  
-     `http://localhost/v1/methods/user/me`
+   - Проверьте его в PostMan по ссылке: `http://localhost/v1/methods/user/me`
 
+    Вроде всё. *Good luck!* 🚀
 ---
-Вроде всё. *Good luck!* 🚀  
-# WordPress_Help
 
     
