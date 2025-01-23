@@ -18,3 +18,5 @@ require_once get_template_directory() . '/inc/api/product_color.php';
 require_once get_template_directory() . '/inc/api/search_category.php';
 // Вывод выбраннова товара.
 require_once get_template_directory() . '/inc/api/take_product.php';
+// Вывод данных пользователя.
+require_once get_template_directory() . '/inc/api/get_current_user_info.php';
