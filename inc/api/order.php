@@ -29,8 +29,8 @@ function createRequest(WP_REST_Request $request)
         ];
 
         $parent = $arr['acf_fields']["product"];
+        
         $good_job = $parent->ID;
-
         $title = $parent->post_title;
     } else {
         return new WP_Error('no_parent_post', 'Родительский пост не найден', ['status' => 404]);

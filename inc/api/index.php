@@ -20,3 +20,5 @@ require_once get_template_directory() . '/inc/api/search_category.php';
 require_once get_template_directory() . '/inc/api/take_product.php';
 // Вывод данных пользователя.
 require_once get_template_directory() . '/inc/api/get_current_user_info.php';
+// Работа с ролями пользователей 
+require_once get_template_directory() . '/inc/api/role_management.php';
