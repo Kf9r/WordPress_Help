@@ -22,3 +22,7 @@ require_once get_template_directory() . '/inc/api/take_product.php';
 require_once get_template_directory() . '/inc/api/get_current_user_info.php';
 // Работа с ролями пользователей 
 require_once get_template_directory() . '/inc/api/role_management.php';
+// Для заголовка которые будут транслироватся и вставать в ссылку.
+require_once get_template_directory() . '/inc/api/admin_functions.php';
+   
+
