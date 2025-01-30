@@ -5,7 +5,7 @@ add_action('rest_api_init', function () {
         'methods' => 'POST',
         'callback' => 'createProductPost',
         'permission_callback' => '__return_true',
-    ))
+    ));
 });
 
 function createProductPost(WP_REST_Request $request) {
