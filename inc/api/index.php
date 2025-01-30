@@ -24,5 +24,8 @@ require_once get_template_directory() . '/inc/api/get_current_user_info.php';
 require_once get_template_directory() . '/inc/api/role_management.php';
 // Для заголовка которые будут транслироватся и вставать в ссылку.
 require_once get_template_directory() . '/inc/api/admin_functions.php';
+// Код работы корзины покупок
+require_once get_template_directory() . '/inc/api/shopping_cart.php';
+require_once get_template_directory() . '/inc/api/remove_cart.php';
    
 
