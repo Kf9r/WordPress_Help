@@ -15,7 +15,7 @@ function post_UserPlace(WP_REST_Request $request)
         return new WP_Error('unauthorized', 'Пользователь не авторизован.', array('status' => 401));
     }
 
-    // Получаем ID текущего пользователя
+   
     $user_id = get_current_user_id();
 
     // Получаем IP-адрес пользователя
