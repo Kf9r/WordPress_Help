@@ -27,5 +27,7 @@ require_once get_template_directory() . '/inc/api/admin_functions.php';
 // Код работы корзины покупок
 require_once get_template_directory() . '/inc/api/shopping_cart.php';
 require_once get_template_directory() . '/inc/api/remove_cart.php';
+// Местоположение пользователя 
+require_once get_template_directory() . '/inc/api/user_place.php';
    
 
